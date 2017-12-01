@@ -1,0 +1,16 @@
+management:
+  security:
+    enabled: false
+logging:
+  level:
+    root: INFO
+endpoints:
+  default:
+    web:
+      enabled: true
+spring:
+  metrics:
+    influx:
+      db: mydb
+      enabled: true
+      step: PT10S
