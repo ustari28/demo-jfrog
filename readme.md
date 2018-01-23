@@ -1,7 +1,7 @@
 # Set up
 Simple configuration for using artifactory maven repository.<br>
 We need the option ``--illegal-access=deny`` for starting the proyect.
-## Docker
+## Running Docker
 ```
 docker run --name artifactory -d -p 8081:8081 docker.bintray.io/jfrog/artifactory-oss:latest
 ```
